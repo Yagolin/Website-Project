@@ -1,0 +1,38 @@
+.contactHeader{
+    text-align: center;
+}
+
+.contactHeader h2{
+    font-weight: bold;
+}
+
+.contact-submit{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+.contact-submit a{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-submit p{
+    margin: 0;
+    position: relative;
+    top: 25%;
+}
+
+.feedback{
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

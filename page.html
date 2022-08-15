@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BLOK</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/page.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbarOpt" class="navbar navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">WebSite</a>
+                </div>
+
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Content 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Content 2</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Content 3
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Page 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Page 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Page 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <form class="navbar-form navbar-right" action="#">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+        </nav>
+
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <img src="img/Kuşadası.jpg" alt="Kuşadası">
+                        <div class="carousel-caption">
+                            <h3>Kuşadası</h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/Marmaris.jpg" alt="Marmaris">
+                        <div class="carousel-caption">
+                            <h3>Marmaris</h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/Kaş.jpg" alt="Kaş">
+                        <div class="carousel-caption">
+                            <h3>Kaş</h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/Çeşme.jpg" alt="Çeşme">
+                        <div class="carousel-caption">
+                            <h3>Çeşme</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="pageDetails">
+        <div class="container pageDetailsMain">
+            <div class="row detailsMainHeader">
+                <h1>DETAILS</h1>
+                <div class="col-lg-6">
+                    <div class="detailsText">
+                        <h2>Header 1</h2>
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed facilisis mauris. Aenean justo quam, interdum aliquam neque at, 
+                            molestie scelerisque est. Maecenas tempor gravida lorem, at tincidunt neque tincidunt ut. Donec et varius massa, maximus vulputate eros. 
+                            Praesent at lobortis metus. Cras mattis justo eget risus sagittis pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, 
+                            nascetur ridiculus mus. Phasellus id ex sem. Aliquam pharetra tincidunt ligula, vitae consectetur augue dignissim a. Sed varius maximus elit, 
+                            tristique auctor neque consectetur sit amet. Nam suscipit felis neque, at interdum augue tempor in. Vivamus nisi mauris, facilisis sagittis 
+                            eleifend non, auctor vel odio. Pellentesque euismod dapibus purus non ornare. Proin vestibulum lacus quam, non facilisis quam bibendum quis.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="detailsText">
+                        <h2>Header 2</h2>
+                        <p>
+                                Cras bibendum sem tellus, sed condimentum ante auctor eget. Nunc sollicitudin elit lorem, commodo convallis odio placerat nec. Vestibulum viverra 
+                            nisi enim, et scelerisque nunc gravida at. Praesent semper ornare sapien, in sollicitudin felis elementum euismod. Aenean egestas eros vel purus 
+                            tristique, vel dignissim sem interdum. Vivamus sed viverra lacus. Vestibulum luctus tincidunt efficitur. Duis eget risus nisi. Nam a turpis ipsum. 
+                            Sed mattis sagittis auctor. Morbi ut pulvinar elit. Sed faucibus cursus sem in ornare. Donec elementum tempor erat eget gravida. Vestibulum ante 
+                            ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce vulputate sodales mi, non condimentum sem tempus nec. Nunc iaculis 
+                            fermentum molestie justo eget risus sagittis pellentesque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container productMain">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card productCards">
+                    <img src="img/portfolio.png" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h3 class="card-title">Product 1</h3>
+                        <p class="card-text"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed facilisis mauris. Aenean justo quam, interdum aliquam neque at, 
+                            molestie scelerisque est. Maecenas tempor gravida lorem, at tincidunt neque tincidunt ut. Donec et varius massa, maximus vulputate eros.
+                        </p>
+                        <a href="#" class="btn btn-primary">Product Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card productCards">
+                    <img src="img/portfolio.png" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h3 class="card-title">Product 2</h3>
+                        <p class="card-text"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed facilisis mauris. Aenean justo quam, interdum aliquam neque at, 
+                            molestie scelerisque est. Maecenas tempor gravida lorem, at tincidunt neque tincidunt ut. Donec et varius massa, maximus vulputate eros.
+                        </p>
+                        <a href="#" class="btn btn-primary">Product Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card productCards">
+                    <img src="img/portfolio.png" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h3 class="card-title">Product 3</h3>
+                        <p class="card-text"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed facilisis mauris. Aenean justo quam, interdum aliquam neque at, 
+                            molestie scelerisque est. Maecenas tempor gravida lorem, at tincidunt neque tincidunt ut. Donec et varius massa, maximus vulputate eros.
+                        </p>
+                        <a href="#" class="btn btn-primary">Product Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card productCards">
+                    <img src="img/portfolio.png" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h3 class="card-title">Product 4</h3>
+                        <p class="card-text"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed facilisis mauris. Aenean justo quam, interdum aliquam neque at, 
+                            molestie scelerisque est. Maecenas tempor gravida lorem, at tincidunt neque tincidunt ut. Donec et varius massa, maximus vulputate eros.
+                        </p>
+                        <a href="#" class="btn btn-primary">Product Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card productCards">
+                    <img src="img/portfolio.png" class="card-img-top" alt="Product 5">
+                    <div class="card-body">
+                        <h3 class="card-title">Product 5</h3>
+                        <p class="card-text"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed facilisis mauris. Aenean justo quam, interdum aliquam neque at, 
+                            molestie scelerisque est. Maecenas tempor gravida lorem, at tincidunt neque tincidunt ut. Donec et varius massa, maximus vulputate eros.
+                        </p>
+                        <a href="#" class="btn btn-primary">Product Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card productCards">
+                    <img src="img/portfolio.png" class="card-img-top" alt="Product 6">
+                    <div class="card-body">
+                        <h3 class="card-title">Product 6</h3>
+                        <p class="card-text"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed facilisis mauris. Aenean justo quam, interdum aliquam neque at, 
+                            molestie scelerisque est. Maecenas tempor gravida lorem, at tincidunt neque tincidunt ut. Donec et varius massa, maximus vulputate eros.
+                        </p>
+                        <a href="#" class="btn btn-primary">Product Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card productCards">
+                    <img src="img/portfolio.png" class="card-img-top" alt="Product 7">
+                    <div class="card-body">
+                        <h3 class="card-title">Product 7</h3>
+                        <p class="card-text"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed facilisis mauris. Aenean justo quam, interdum aliquam neque at, 
+                            molestie scelerisque est. Maecenas tempor gravida lorem, at tincidunt neque tincidunt ut. Donec et varius massa, maximus vulputate eros.
+                        </p>
+                        <a href="#" class="btn btn-primary">Product Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card productCards">
+                    <img src="img/portfolio.png" class="card-img-top" alt="Product 8">
+                    <div class="card-body">
+                        <h3 class="card-title">Product 8</h3>
+                        <p class="card-text"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed facilisis mauris. Aenean justo quam, interdum aliquam neque at, 
+                            molestie scelerisque est. Maecenas tempor gravida lorem, at tincidunt neque tincidunt ut. Donec et varius massa, maximus vulputate eros.
+                        </p>
+                        <a href="#" class="btn btn-primary">Product Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="aboutUs">
+        <div class="container aboutUsMain">
+            <div id="accordion">
+                <div class="card cardOpt row">
+                    <div class="card-header col-lg-3" id="head1">
+                        <h5>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#Collapse1" aria-expanded="false" aria-controls="Collapse1">
+                                About Us 1
+                            </button>
+                        </h5>
+                    </div>
+    
+                    <div id="Collapse1" class="collapse col-lg-9" aria-labelledby="head1" data-parent="#accordion">
+                        <div class="card-body">
+                            Sed consectetur nisl lacus, et hendrerit lectus molestie nec. Praesent egestas tellus tincidunt, ultricies est quis, lobortis arcu. Sed quis lacinia 
+                            dui, sed gravida diam. Integer quam sem, hendrerit nec urna pharetra, lobortis euismod ex. Nulla facilisi. Donec nibh lorem, consectetur et molestie a,
+                            aliquam non ante. Etiam id risus ut purus cursus dictum nec sed sapien.
+                                
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card cardOpt row">
+                    <div class="card-header col-lg-3" id="head2">
+                        <h5>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#Collapse2" aria-expanded="false" aria-controls="Collapse2">
+                                About Us 2
+                            </button>
+                        </h5>
+                    </div>
+    
+                    <div id="Collapse2" class="collapse col-lg-9" aria-labelledby="head2" data-parent="#accordion">
+                        <div class="card-body">
+                                Cras bibendum sem tellus, sed condimentum ante auctor eget. Nunc sollicitudin elit lorem, commodo convallis odio placerat nec. Vestibulum viverra 
+                            nisi enim, et scelerisque nunc gravida at. Praesent semper ornare sapien, in sollicitudin felis elementum euismod. Aenean egestas eros vel purus 
+                            tristique, vel dignissim sem interdum. Vivamus sed viverra lacus. Vestibulum luctus tincidunt efficitur. Duis eget risus nisi. Nam a turpis ipsum. 
+                            Sed mattis sagittis auctor. Morbi ut pulvinar elit. Sed faucibus cursus sem in ornare. Donec elementum tempor erat eget gravida. Vestibulum ante 
+                            ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce vulputate sodales mi, non condimentum sem tempus nec. Nunc iaculis 
+                            fermentum molestie justo eget risus sagittis pellentesque.
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card cardOpt row">
+                    <div class="card-header col-lg-3" id="head3">
+                        <h5>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#Collapse3" aria-expanded="false" aria-controls="Collapse3">
+                                About Us 3
+                            </button>
+                        </h5>
+                    </div>
+    
+                    <div id="Collapse3" class="collapse col-lg-9" aria-labelledby="head3" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed facilisis mauris. Aenean justo quam, interdum aliquam neque at, 
+                            molestie scelerisque est. Maecenas tempor gravida lorem, at tincidunt neque tincidunt ut. Donec et varius massa, maximus vulputate eros. 
+                            Praesent at lobortis metus. Cras mattis justo eget risus sagittis pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, 
+                            nascetur ridiculus mus. Phasellus id ex sem. Aliquam pharetra tincidunt ligula, vitae consectetur augue dignissim a. Sed varius maximus elit, 
+                            tristique auctor neque consectetur sit amet. Nam suscipit felis neque, at interdum augue tempor in. Vivamus nisi mauris, facilisis sagittis 
+                            eleifend non, auctor vel odio. Pellentesque euismod dapibus purus non ornare. Proin vestibulum lacus quam, non facilisis quam bibendum quis.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar quam sed consequat adipiscing. Sed est quam, pretium a vestibulum vel, aliquam vitae eros.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <p>This is the footer section.This is the footer section.This is the footer section.</p>
+                    <p>This is the footer section.This is the footer section.This is the footer section.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar quam sed consequat adipiscing. Sed est quam, pretium a vestibulum vel, aliquam vitae eros.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>

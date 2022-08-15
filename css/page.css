@@ -1,0 +1,143 @@
+#navbarOpt{
+    background-color:darkcyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#navbarOpt li a{
+    color:cyan;
+    font-size: 18px;
+}
+
+#navbarOpt ul.nav a:hover{
+    background-color:aqua;
+    color:cadetblue;
+}
+
+#navbarOpt li.dropdown ul.dropdown-menu{
+    background-color: darkcyan;
+}
+
+#navbarOpt li.dropdown ul.dropdown-menu a:hover{
+    background-color:aquamarine;
+    color: darkcyan;
+}
+a.navbar-brand{
+    font-size: 24px;
+    color: cyan;
+}
+
+body{
+    padding-top: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.pageDetails{
+    background-color: darkcyan;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+div.pageDetailsMain{
+    background-color:lightblue;
+}
+
+div.detailsMainHeader h1{
+    background-color:darkseagreen;
+    text-align: center;
+}
+
+div.detailsText{
+    background-color: aquamarine;
+    text-align: center;
+    border:double;
+    margin-bottom: 10px;
+}
+
+div.detailsText p{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.card-header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 100%;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+#Collapse1{
+    background-color: white;
+}
+
+#Collapse2{
+    background-color: white;
+}
+
+#Collapse3{
+    background-color: white;
+}
+
+.productMain{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.productCards{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    border: double;
+}
+
+.card-body a{
+    margin-bottom: 10px;
+}
+.card-img-top{
+    width: 95%;
+    height: 85%;
+    margin-top: 5px;
+    border: 5px solid black;
+}
+
+.aboutUs{
+    background-color: darkcyan;
+    margin-bottom: 40px;
+}
+
+.aboutUsMain{
+    background-color: lightblue;
+}
+
+.cardOpt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-header h5{
+    background-color:darkolivegreen;
+}
+
+.card-header button.btn{
+    color: cyan;
+}
+
+.collapse{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: double;
+}
+
+footer{
+    width: 100%;
+    background-color:gray;
+    font-size: 20px;
+}
+
+
